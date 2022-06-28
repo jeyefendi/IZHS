@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Roboto Flex';
+    src: url(RobotoFlex.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.logo {
+  position: absolute;
+  width: 7.5vw;
+  margin: 5.56222vh auto auto 10.8333vw;
+}
+
+h1 {
+  position: absolute;
+  width: 41.805555vw;
+  height: 16vh;
+  left: 10.972vw;
+  top: 28.888vh;
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-size: 3em;
+  line-height: 100%;
+  font-weight: 750;
+  letter-spacing: -0.5px;
+  color: #090909;
+  font-stretch: 151;
+  font-variation-settings: "GRAD" 0, "slnt" 0, "XTRA" 499, "XOPQ" 96, "YOPQ" 79,
+    "YTLC" 514, "YTUC" 712, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.device {
+  position: absolute;
+  width: 21.666vw;
+  right: 22.5vw;
+  top: 8vh;
+}
+
+.download {
+  display: flex;
+  position: absolute;
+  bottom: 30.666vh;
+  left: 10.8333vw;
+  gap: 1.666vw;
+}
+
+.launch {
+  position: absolute;
+  bottom: 33.343vh;
+  left: 18.6111vw;
+}
+
+.arrow {
+  position: absolute;
+  left: 44.072vw;
+  bottom: 4.4444vh;
+}
+
+p {
+  position: absolute;
+  bottom: 3.777vh;
+  right: 43.6111vw;
+  width: 151px;
+  height: 20px;
+
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 0.875em;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.25px;
+
+  /* Черный */
+
+  color: #090909;
+  font-stretch: 151;
+  font-variation-settings: "GRAD" 0, "slnt" 0, "XTRA" 499, "XOPQ" 96, "YOPQ" 79,
+    "YTLC" 514, "YTUC" 712, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+ul {
+  position: absolute;
+  top: 31.111vh;
+  right: 13.472vw;
+}
+
+li {
+  padding-top: 2.111vh;
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 750;
+  font-size: 20px;
+  line-height: 100%;
+  color: #5337ff;
+  font-stretch: 151;
+  font-variation-settings: "GRAD" 0, "slnt" 0, "XTRA" 499, "XOPQ" 96, "YOPQ" 79,
+    "YTLC" 514, "YTUC" 712, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+li span {
+    padding-left: 0.694vw;
+}
